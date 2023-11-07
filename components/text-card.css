@@ -1,0 +1,54 @@
+.text-card-text-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.text-card-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text-card-text {
+  font-family: "Raleway";
+  font-weight: 600;
+  line-height: 28px;
+}
+.text-card-text1 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.text-card-text2 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+@media(max-width: 479px) {
+  .text-card-text-card {
+    height: auto;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text-card-container {
+    height: auto;
+    flex-direction: column;
+  }
+  .text-card-text {
+    font-size: 2rem;
+    line-height: 34px;
+  }
+  .text-card-text1 {
+    color: #000000;
+    font-size: 20px;
+  }
+  .text-card-text2 {
+    color: var(--dl-color-gray-800);
+    line-height: 1.6;
+  }
+}
